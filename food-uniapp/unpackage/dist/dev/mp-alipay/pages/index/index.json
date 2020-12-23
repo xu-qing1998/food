@@ -1,0 +1,10 @@
+{
+  "defaultTitle": "美食",
+  "usingComponents": {
+    "uni-search-bar": "/components/uni/uni-search-bar/uni-search-bar",
+    "uni-grid": "/components/uni/uni-grid/uni-grid",
+    "uni-grid-item": "/components/uni/uni-grid-item/uni-grid-item",
+    "uni-icons": "/components/uni/uni-icons/uni-icons",
+    "foodlist": "/components/foodlist/foodlist"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "视频",
+  "pullRefresh": true,
+  "usingComponents": {
+    "uni-load-more": "/components/uni/uni-load-more/uni-load-more"
+  }
+}

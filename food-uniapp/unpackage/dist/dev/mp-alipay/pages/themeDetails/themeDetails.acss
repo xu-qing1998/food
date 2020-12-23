@@ -1,0 +1,110 @@
+page {
+  width: 750rpx;
+  height: 100%;
+  font-family: "\6977\4F53";
+}
+page .continer {
+  width: 700rpx;
+  padding-left: 25rpx;
+  padding-right: 25rpx;
+  background-color: #FFFFFF;
+}
+page .continer .blank {
+  width: 700rpx;
+  height: 300rpx;
+}
+page .continer .title {
+  width: 100%;
+  height: 80rpx;
+  font-size: 40rpx;
+  font-weight: bold;
+  font-family: "\6977\4F53";
+  text-align: center;
+  padding-top: 20rpx;
+}
+page .continer .themeIntroduce {
+  margin-top: 20rpx;
+  color: #999999;
+}
+page .continer .title2 {
+  font-size: 40rpx;
+  margin-top: 20rpx;
+  font-family: "\6977\4F53";
+}
+page .continer .buttons {
+  display: inline-block;
+  padding: 0;
+  border: none;
+}
+page .continer .buttons button {
+  height: 30rpx;
+  margin-left: 10rpx;
+  padding: 0 10rpx 0 10rpx;
+  font-size: 24rpx;
+  line-height: 30rpx;
+  color: #c2a054;
+  background-color: #fff5e1;
+  border: none;
+}
+page .continer .foodsPhoto {
+  width: 670rpx;
+  margin: 0 auto;
+  margin-top: 40rpx;
+}
+page .continer .foodsPhoto .Photo_item image {
+  width: 670rpx;
+  height: 380rpx;
+  border-radius: 16rpx;
+  background-size: cover;
+}
+page .continer .foodsPhoto .Photo_item .text {
+  width: 670rpx;
+  height: 40rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+page .continer .foodsPhoto .Photo_item .text .right uni-icons {
+  margin-top: 10rpx;
+}
+page .continer .bottom {
+  width: 100%;
+  height: 100rpx;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #E9E9E9;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+page .continer .bottom .tab_item {
+  margin-top: 10rpx;
+}
+page .continer .bottom .tab_item .text {
+  text-align: center;
+  margin-left: -12rpx;
+}
+page .continer .bottom .tab_item .btn {
+  border: 0;
+}
+page .continer .bottom .tab_item .btn .share-btn {
+  width: 80rpx;
+  height: 40rpx;
+  padding: 0;
+  background-color: #E9E9E9;
+  line-height: 40rpx;
+}
+page .continer .bottom .tab_item .btn button::after {
+  border: none;
+}
+

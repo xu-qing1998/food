@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "菜谱",
+  "usingComponents": {
+    "uni-icons": "/components/uni/uni-icons/uni-icons",
+    "uni-load-more": "/components/uni/uni-load-more/uni-load-more",
+    "foodlist": "/components/foodlist/foodlist"
+  }
+}

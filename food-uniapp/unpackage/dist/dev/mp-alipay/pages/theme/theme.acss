@@ -1,0 +1,27 @@
+.themeList .item {
+  width: 700rpx;
+  height: 500rpx;
+  margin-left: 40rpx;
+  margin-top: 40rpx;
+  font-family: "\6977\4F53";
+}
+.themeList .item image {
+  width: 670rpx;
+  height: 380rpx;
+  border-radius: 16rpx;
+}
+.themeList .item .bigText {
+  margin-top: 20rpx;
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.themeList .item .smallText {
+  margin-top: 10rpx;
+  font-size: 24rpx;
+  color: gray;
+}
+.blank {
+  width: 750rpx;
+  height: 400rpx;
+}
+

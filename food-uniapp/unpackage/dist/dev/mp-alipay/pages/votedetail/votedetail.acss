@@ -1,0 +1,133 @@
+.box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.box .main {
+  padding-left: 30rpx;
+  padding-top: 12rpx;
+  margin-bottom: 90rpx;
+}
+.box .main .title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.box .main .title .logo {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  background-size: cover;
+}
+.box .main .title .titleName {
+  margin-left: 20rpx;
+}
+.box .main .title .titleName .tnb {
+  margin-top: 10rpx;
+  font-size: 24rpx;
+  color: #9c9c9c;
+}
+.box .main .content {
+  margin: 0 10rpx 40rpx;
+}
+.box .main .content .titletop {
+  font-size: 36rpx;
+  margin: 20rpx 0;
+}
+.box .main .content image {
+  width: 670rpx;
+  height: 618rpx;
+}
+.box .main .radio {
+  border: 2rpx solid #dddddd;
+  background-color: #f2f2f2;
+  padding-top: 40rpx;
+  padding-left: 40rpx;
+  border-radius: 3%;
+}
+.box .main .radio .uni-title {
+  margin-bottom: 10rpx;
+  font-weight: 600;
+}
+.box .main .radio .uni-list radio-group .list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 30rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 2rpx solid #dddddd;
+  font-size: 34rpx;
+}
+.box .main .radio .uni-list button {
+  margin-left: -40rpx;
+  color: #999999;
+}
+.box .main .comment {
+  margin-top: 60rpx;
+}
+.box .main .comment .discuss {
+  margin-bottom: 40rpx;
+}
+.box .main .comment .commentMain .commentTitle {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 30rpx;
+}
+.box .main .comment .commentMain .commentTitle image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+.box .main .comment .commentMain .commentTitle .commentTitleName {
+  margin-left: 20rpx;
+}
+.box .main .comment .commentMain .commentTitle .commentTitleName .ctnt {
+  font-size: 32rpx;
+}
+.box .main .comment .commentMain .commentTitle .commentTitleName .commentTime {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.box .main .comment .commentMain .commentTitle .commentTitleName .commentTime .ctnf {
+  font-size: 24rpx;
+  color: #9c9c9c;
+  margin-right: 20rpx;
+}
+.box .main .comment .commentMain .commentTitle .commentTitleName .commentTime .ctnd {
+  font-size: 24rpx;
+  color: #9c9c9c;
+}
+.box .main .comment .commentMain .commentContent {
+  margin: 16rpx 0 0;
+  padding-bottom: 26rpx;
+  border-bottom: 2rpx solid #dddddd;
+}
+.box .main uni-load-more {
+  margin-top: -30rpx;
+}
+.box .tabb {
+  width: 100%;
+  border-top: 2rpx solid grey;
+  position: fixed;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  background-color: #f1f1f1;
+}
+.box .tabb .one {
+  text-align: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.box .tabb .one text {
+  font-size: 50rpx;
+}
+.box .tabb .one .fsize {
+  font-size: 30rpx;
+  margin-bottom: 6rpx;
+}
+

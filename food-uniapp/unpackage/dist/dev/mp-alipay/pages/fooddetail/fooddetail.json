@@ -1,0 +1,9 @@
+{
+  "defaultTitle": "菜谱详情",
+  "pullRefresh": true,
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "share-btn": "/components/share-btn/share-btn",
+    "uni-icons": "/components/uni/uni-icons/uni-icons"
+  }
+}

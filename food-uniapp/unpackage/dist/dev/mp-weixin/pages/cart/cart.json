@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "菜篮子",
+  "usingComponents": {
+    "cartlist": "/components/cartlist/cartlist"
+  }
+}

@@ -1,0 +1,48 @@
+.box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  padding: 30rpx;
+}
+.box .title {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.box .title image {
+  border-radius: 5%;
+  height: 420rpx;
+  width: 100%;
+}
+.box .title .box_bottom {
+  padding-top: 20rpx;
+  height: 135rpx;
+}
+.box .title .box_bottom .fl {
+  float: left;
+}
+.box .title .box_bottom .fl .fl_top {
+  font-weight: 700;
+  font-size: 40rpx;
+  margin-bottom: 10rpx;
+}
+.box .title .box_bottom .fl .fl_bottom {
+  font-size: 28rpx;
+  color: #b9b9b9;
+}
+.box .title .box_bottom .fr {
+  float: right;
+}
+.box .title .box_bottom .fr .sc {
+  font-size: 40rpx;
+}
+

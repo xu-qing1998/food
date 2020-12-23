@@ -1,0 +1,1 @@
+<view><text></text><foodlist vue-id="1" menu="{{menu}}" bind:__l="__l"></foodlist><block wx:if="{{!flag}}"><uni-load-more vue-id="2" status="loading" bind:__l="__l"></uni-load-more></block><block wx:else><uni-load-more vue-id="3" status="noMore" bind:__l="__l"></uni-load-more></block></view>

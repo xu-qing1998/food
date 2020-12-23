@@ -1,0 +1,91 @@
+
+page {
+	height: 100%;
+}
+
+
+.background {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-size: 100% 100%;
+	z-index: -1;
+}
+.content {
+	width: 100vw;
+	height: 100vh;
+}
+.logodiv {
+
+	width: 100vw;
+	height: 30vh;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	/* 项目位于容器的中心 */
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	        align-items: flex-end;
+}
+.form {
+	padding: 0 100rpx;
+}
+.username {
+	width: 100%;
+	height: 70rpx;
+	border-radius: 20rpx;
+	box-sizing: border-box;
+	padding: 0 20rpx;
+	margin-top: 25rpx;
+}
+.username .nameform {
+	border-radius: 20rpx;
+	background: #FFFFFF;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 25rpx;
+}
+.password {
+	width: 100%;
+	height: 70rpx;
+	border-radius: 20rpx;
+	box-sizing: border-box;
+	padding: 0 20rpx;
+	margin-top: 25rpx;
+}
+.password .pawform {
+	width: 100%;
+	height: 100%;
+	border-radius: 20rpx;
+	text-align: center;
+	font-size: 25rpx;
+	background-color: #FFFFFF;
+}
+.loginBtn {
+	width: 92%;
+	height: 90rpx;
+	background: #FFFFFF;
+	border-radius: 20rpx;
+	margin-top: 50rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin-left: 23rpx;
+}
+.registBtn {
+	text-align: center;
+	color: black;
+	font-size: 30rpx;
+	margin-top: 20rpx;
+}
+

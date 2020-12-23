@@ -1,0 +1,50 @@
+.lp {
+  width: 750rpx;
+  height: 650rpx;
+}
+.lp video {
+  width: 750rpx;
+  height: 650rpx;
+}
+.bl {
+  float: left;
+  padding: 40rpx;
+  font-size: 40rpx;
+  font-weight: 700;
+}
+.br {
+  float: right;
+  padding: 30rpx;
+  color: #cccccc;
+  font-size: 40rpx;
+}
+.tabb {
+  width: 100%;
+  border-top: 2rpx solid grey;
+  position: fixed;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.tabb .tl {
+  text-align: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.tabb .tl .ltop {
+  width: 60rpx;
+  height: 60rpx;
+}
+.tabb .tr {
+  text-align: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.tabb .tr .rtop {
+  width: 60rpx;
+  height: 60rpx;
+}
+

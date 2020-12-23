@@ -1,0 +1,10 @@
+{
+  "defaultTitle": "来到广场",
+  "pullRefresh": true,
+  "usingComponents": {
+    "uni-load-more": "/components/uni/uni-load-more/uni-load-more",
+    "post-bars": "/components/postbars/postBars-xuchen",
+    "elite": "/components/elite/elite",
+    "tab2": "/components/tab/tab2"
+  }
+}

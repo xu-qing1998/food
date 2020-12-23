@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/theme/theme",
+    "pages/video/video",
+    "pages/my/my",
+    "pages/zaoju/zaoju",
+    "pages/square/square",
+    "pages/fooddetail/fooddetail",
+    "pages/cart/cart",
+    "pages/login/login",
+    "pages/themeDetails/themeDetails",
+    "pages/search/search",
+    "pages/collect/collect",
+    "pages/lottery/lottery",
+    "pages/lotteryDetail/lotteryDetail",
+    "pages/videoDetail/videoDetail",
+    "pages/postBarsDetail/postBarsDetail",
+    "pages/votedetail/votedetail",
+    "pages/share/share",
+    "pages/register/register",
+    "pages/user/user"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "美食",
+    "navigationBarBackgroundColor": "#E9A06F",
+    "backgroundColor": "#F8F8F8",
+    "onReachBottomDistance": 20
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "菜谱",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/菜谱.png",
+        "selectedIconPath": "static/tabs/菜谱_active.png"
+      },
+      {
+        "text": "主题",
+        "pagePath": "pages/theme/theme",
+        "iconPath": "static/tabs/主题.png",
+        "selectedIconPath": "static/tabs/主题_active.png"
+      },
+      {
+        "text": "视频",
+        "pagePath": "pages/video/video",
+        "iconPath": "static/tabs/视频.png",
+        "selectedIconPath": "static/tabs/视频_active.png"
+      },
+      {
+        "text": "广场",
+        "pagePath": "pages/square/square",
+        "iconPath": "static/tabs/会话.png",
+        "selectedIconPath": "static/tabs/会话_active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/my",
+        "iconPath": "static/tabs/我的.png",
+        "selectedIconPath": "static/tabs/我的_active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,62 @@
+.box {
+  padding-left: 30rpx;
+  padding-top: 16rpx;
+}
+.box .main {
+  border-bottom: 2rpx solid #9c9c9c;
+  padding-bottom: 20rpx;
+  margin-bottom: 20rpx;
+}
+.box .main .title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.box .main .title .logo {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  background-size: cover;
+}
+.box .main .title .titleName {
+  margin-left: 20rpx;
+}
+.box .main .title .titleName .tnb {
+  font-size: 24rpx;
+  color: #9c9c9c;
+}
+.box .main .votetitle {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 40rpx;
+  margin-bottom: 30rpx;
+  text-align: left;
+}
+.box .main .votetitle .tp {
+  color: #ff6767;
+  font-size: 24rpx;
+  border: 1px solid red;
+  margin: 0 10rpx 20rpx 0;
+  line-height: 38rpx;
+  text-align: center;
+  padding: 0;
+  height: 40rpx;
+  width: 90rpx;
+}
+.box .main .votetitle .ts {
+  margin: -6rpx 10rpx 20rpx 0;
+}
+.box .main .content {
+  margin: 0 10rpx 10px;
+}
+.box .main .content image {
+  width: 300rpx;
+  height: 300rpx;
+  background-size: cover;
+}
+.box .main .bottom {
+  font-size: 24rpx;
+  color: #9c9c9c;
+}
+

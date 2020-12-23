@@ -1,0 +1,1 @@
+<view><block wx:if="{{carts.length==0}}"><view class="tis"><image src="../../static/img/菜篮子.png" mode="widthFix"></image></view></block><cartlist vue-id="1" carts="{{carts}}" button="{{buttonList}}" border="{{true}}" data-event-opts="{{[['^click',[['clickMethod']]],['^change',[['changeMethod']]]]}}" bind:click="__e" bind:change="__e" bind:__l="__l"></cartlist></view>

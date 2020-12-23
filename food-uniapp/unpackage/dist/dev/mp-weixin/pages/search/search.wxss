@@ -1,0 +1,57 @@
+page {
+  width: 100%;
+  height: 100%;
+  font-family: "\6977\4F53";
+}
+page .recommend {
+  margin-top: 40rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #A0A0A0;
+}
+page .btns {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 40rpx;
+}
+page .btns .btn {
+  width: 120rpx;
+  height: 50rpx;
+  line-height: 38rpx;
+  padding: 5rpx 10rpx;
+  font-size: 24rpx;
+  border-radius: 30rpx;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px #FFCC66 solid;
+  color: #A0A0A0;
+}
+page .image {
+  width: 64px;
+  height: 48px;
+  background-size: cover;
+}
+page .img {
+  width: 700rpx;
+  margin: 20rpx auto;
+}
+page .img image {
+  width: 670rpx;
+  height: 400rpx;
+  border-radius: 16rpx;
+  margin-left: 15rpx;
+  background-size: cover;
+}
+page .img .text {
+  width: 670rpx;
+  margin: 15rpx 0 15rpx 15rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  font-size: 30rpx;
+}
+

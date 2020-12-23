@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "登录中心",
+  "usingComponents": {
+    "m-input": "/components/m-input"
+  }
+}

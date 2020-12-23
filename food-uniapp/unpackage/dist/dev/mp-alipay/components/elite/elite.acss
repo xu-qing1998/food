@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.content {
+  border-bottom: 1px solid #DCDCDC;
+  width: 725rpx;
+  margin-left: 25px;
+  position: relative;
+  padding-bottom: 9px;
+}
+.content .content2 {
+    width: 325px;
+    margin: 0;
+    margin-right: 25px;
+}
+.content .content2 .tp {
+      color: #ff6767;
+      font-size: 24rpx;
+      border: 1px solid red;
+      margin: 0 10rpx 20rpx 0;
+      line-height: 38rpx;
+      text-align: center;
+      padding: 0;
+      height: 40rpx;
+      width: 90rpx;
+      margin-right: 5px;
+}
+.content .content2 .type-subject {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-wrap: nowrap;
+              flex-wrap: nowrap;
+      width: 324px;
+}
+.content .img1 {
+    border-radius: 50%;
+    height: 80rpx;
+    width: 80rpx;
+    margin-top: 15px;
+}
+.content .texts1 {
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 2rpx;
+}
+.content .texts2 {
+    color: #888;
+    font-size: 14px;
+    letter-spacing: 2rpx;
+}
+.content .texts3 {
+    font-size: 16px;
+    margin-bottom: 18rpx;
+    letter-spacing: 2rpx;
+}
+.content .texts4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 18rpx;
+    letter-spacing: 2rpx;
+}
+.content .rt {
+    position: absolute;
+    left: 55px;
+    top: 15px;
+}
+.content .commentPhoto {
+    width: 650rpx;
+}
+.content .commentPhoto .img2 {
+      width: 210rpx;
+      height: 210rpx;
+      display: inline-block;
+      margin-right: 6rpx;
+      border-radius: 16rpx;
+}
+.content .contentbottom {
+    margin-top: 18rpx;
+    height: 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+}
+.content .contentbottom .texts5 {
+      width: 51px;
+      color: #696969;
+      font-size: 10px;
+      margin-right: 10rpx;
+}
+.content text {
+    display: block;
+    margin: 0;
+}
+

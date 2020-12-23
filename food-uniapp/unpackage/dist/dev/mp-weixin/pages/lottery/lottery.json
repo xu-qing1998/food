@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "随机选菜",
+  "usingComponents": {
+    "uni-icons": "/components/uni/uni-icons/uni-icons"
+  }
+}
